@@ -1,7 +1,7 @@
 # Architecture
 Demonstration of [CQRS](https://martinfowler.com/bliki/CQRS.html) using Apache Kafka as an event-store (the C in CQRS), elasticsearch as an eventually consistent data store for the Q in CQRS, and Spring Boot/Cloud for convenience and ["12 factorness."](https://12factor.net/)
 
-![High Level Architecture](torrential-feed/torrential.png "architecture")
+![High Level Architecture](torrential.png "architecture")
 
 # Elasticsearch document mapping and indexing
 From wikipedia: 
