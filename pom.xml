@@ -28,7 +28,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<spring-boot.version>2.7.5</spring-boot.version>
-		<spring-cloud-config.version>3.1.4</spring-cloud-config.version>
+		<spring-cloud-config.version>4.3.0</spring-cloud-config.version>
 		<maven-compiler-plugin.version>3.9.1</maven-compiler-plugin.version>
 		<maven-compiler-language-level>11</maven-compiler-language-level>
 		<spring-kafka.version>2.8.6</spring-kafka.version>
