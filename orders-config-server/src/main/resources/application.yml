@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    ROOT: INFO
+    org.spring.framework.cloud.config: DEBUG
+
+spring:
+  application:
+    name: ordersconfigserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kamanapa/torrential-inventory-feed.git
+          username: kamanapa
+          password: ${GITHUB_TOKEN}
+          clone-on-start: true
+    fail-fast: true

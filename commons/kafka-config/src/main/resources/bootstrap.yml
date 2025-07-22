@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: kafka-config
+  profile:
+    active: kafka_config
+  cloud:
+    config:
+      name: kafka-config, orders-configs
+      uri: http://localhost:8888
